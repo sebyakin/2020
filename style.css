@@ -21,6 +21,18 @@
         cursor: none;
     }
 
+    .preloader {
+        position: absolute;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        transition: all ease-in .2s;
+    }
+
     @keyframes appear {
         from {
         transform: rotateY(90deg);

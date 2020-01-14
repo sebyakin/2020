@@ -1,8 +1,9 @@
 window.addEventListener('load', ()=> {
+    
+    document.querySelector(".preloader").style.visibility = "hidden";
 
     let timerId = setInterval(() => newWord(), 200);
     setTimeout(() => { clearInterval(timerId); }, 2500);
-
 
     function newWord() {
 
@@ -72,8 +73,6 @@ window.addEventListener('load', ()=> {
       root.style.setProperty('--fill-right-b', colors[l]);
 
     }
-
-
 
     let root = document.documentElement;
 
