@@ -17,8 +17,18 @@
     }
 
     body {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
         animation: appear ease-in 1s;
-        cursor: none;
+    }
+
+    .main {
+        visibility: none;
+        display: none;
     }
 
     .preloader {
@@ -53,7 +63,12 @@
         left: var(--mouse-x);
         top: var(--mouse-y);
         transform: translate(-50%, -50%);
+        cursor: none;
     }
+
+    .cursor-hidden {
+        display: none !important;
+      }
 
     .caption-container {
         width: 100%;
