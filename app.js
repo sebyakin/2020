@@ -103,7 +103,7 @@ window.addEventListener('load', () => {
   document.addEventListener('keydown', function (event) {
     if (event.code == 'Space') {
       newWord();
-      makeScreenshot();
+      // makeScreenshot();
     }
   });
 
@@ -119,34 +119,32 @@ window.addEventListener('load', () => {
   });
 
 
-  // function makeScreenshot() {
-  //   html2canvas(document.querySelector(".wrapper"), {
-  //     scale: 2
-  //   }).then(canvas => {
-  //     canvas.id = "canvasID";
+//   function makeScreenshot() {
+//     html2canvas(document.querySelector(".wrapper"), {
+//       scale: 2
+//     }).then(canvas => {
+//       canvas.id = "canvasID";
 
-  //     var main = document.querySelector(".main");
-  //     while (main.firstChild) {
-  //       main.removeChild(main.firstChild);
-  //     }
-  //     main.appendChild(canvas);
-  //   });
-  // }
+//       var main = document.querySelector(".main");
+//       while (main.firstChild) {
+//         main.removeChild(main.firstChild);
+//       }
+//       main.appendChild(canvas);
+//     });
+//   }
 
 
-  // body.addEventListener('click', function () {
+//   body.addEventListener('click', function () {
 
-  //   let canv = document.getElementById("canvasID");
-  //   console.log(canv);
-  //   let pic = canv.toDataURL("image/jpeg").replace("image/jpeg", "image/octet-stream");
-  //   console.log(pic);
-  //   // pic.download = 'pic.jpg';
-  //   download("hello world", "dlText.txt", "text/plain");
-  //   // .toDataURL();
-  //   // this.download = "canvas-image.png";
-  //   //console.log('jopa');
+//     let canv = document.getElementById("canvasID");
+//     console.log(canv);
+//     let pic = canv.toDataURL;
+//     console.log(pic);
+//     // // pic.download = 'pic.jpg';
+//     // // pic.toDataURL();
+//     // this.download = "canvas-image.png";
 
-  // }, false);
+//   }, false);
 
 });
 

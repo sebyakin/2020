@@ -114,6 +114,7 @@
         font-size: 6vw;
         line-height: 3vw;
         color: #FFEC3E;
+        padding-right: 1vw;
         -moz-text-stroke-color: black;
         -webkit-text-stroke-color: black;
         -moz-text-stroke-width: 2px;
@@ -395,6 +396,14 @@
 
         .cursor-text {
             display: none;
+        }
+
+        .svg-1 {
+            height: 50vh;
+        }
+
+        .svg-2 {
+            height: 50vh;
         }
 
     }
